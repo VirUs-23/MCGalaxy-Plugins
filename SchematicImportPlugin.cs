@@ -15,6 +15,7 @@ namespace MCGalaxy {
 	public sealed class SchematicImportPlugin : Plugin {
 		
 		public override string MCGalaxy_Version { get { return "1.9.2.4"; } }
+                public override string creator { get { return "justinDupa"; } }
 		public override string name { get { return "SchematicImportPlugin"; } }
 		IMapImporter schem;
 		
@@ -126,9 +127,9 @@ namespace MCGalaxy {
 			mcConv[35,  6] = Block.LightPink;
 			mcConv[35,  7] = Block.Black;
 			mcConv[35,  8] = Block.Gray;
-			mcConv[35,  9] = Block.Turquoise;
+			mcConv[35,  9] = Block.turquoise;
 			mcConv[35, 10] = Block.Indigo;
-			mcConv[35, 11] = Block.DeepBlue;
+			mcConv[35, 11] = Block.deepblue;
 			mcConv[35, 12] = Block.Brown;
 			mcConv[35, 13] = Block.ForestGreen;
 			mcConv[35, 14] = Block.Red;
